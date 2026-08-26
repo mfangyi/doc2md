@@ -5,7 +5,11 @@ description = "A simple Streamlit app template."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "markitdown[all]>=0.1.7",
+    "requests>=2.34.0",
     "streamlit>=1.61.1",
+    "toml>=0.10.2",
 ]
 
 [tool.uv]
